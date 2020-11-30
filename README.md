@@ -6,9 +6,9 @@ This repository contains a node.js script which will generate a random Harvey Sp
 
 ## Technologies used
 
-1. ES6 <img align="left" alt="ES6" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/es6/es6.png" />
-2. Git and Github <img align="left" alt="Octocat" width="26px" src="https://github.githubassets.com/images/icons/emoji/octocat.png" />
-3. Terminal <img align="left" alt="terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+1. ES6 <img alt="ES6" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/es6/es6.png" />
+2. Git and Github <img alt="Octocat" width="26px" src="https://github.githubassets.com/images/icons/emoji/octocat.png" />
+3. Terminal <img alt="terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 ---
 
