@@ -21,8 +21,6 @@ This repository contains a node.js script which will generate a random Harvey Sp
 
 ## A sample output
 
----
-
 ![sample output](./sample-output.png)
 
 ---
