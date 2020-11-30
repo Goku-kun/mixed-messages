@@ -24,3 +24,11 @@ This repository contains a node.js script which will generate a random Harvey Sp
 ---
 
 ![sample output](./sample-output.png)
+
+---
+
+## Project status
+
+This project has been `completed`.
+
+---
