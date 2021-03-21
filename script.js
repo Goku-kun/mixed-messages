@@ -3,19 +3,46 @@ function genRandom(listlen) {
 }
 
 function genMessage() {
-    return `I will ${positive().verb} and ${positive().over} the ${positive().task}.`;
+    return `I will ${positive().verb} and ${positive().over} the ${
+        positive().task
+    }.`;
 }
 
 function positive() {
-    const verbs = ['win', 'wrestle', 'catch-up', 'improvise', 'adapt', 'overcome', 'parkour', 'commit'];
-    const tasks = ['war', 'story', 'recipe', 'book', 'code', 'project', 'task at hand'];
-    const verbs_over = ['complete', 'finish', 'accomplish', 'acquire', 'end', 'settle', 'conclude'];
+    const verbs = [
+        "win",
+        "wrestle",
+        "catch-up",
+        "improvise",
+        "adapt",
+        "overcome",
+        "parkour",
+        "commit",
+    ];
+    const tasks = [
+        "war",
+        "story",
+        "recipe",
+        "book",
+        "code",
+        "project",
+        "task at hand",
+    ];
+    const verbs_over = [
+        "complete",
+        "finish",
+        "accomplish",
+        "acquire",
+        "end",
+        "settle",
+        "conclude",
+    ];
 
     return {
         verb: verbs[genRandom(verbs.length)],
         over: verbs_over[genRandom(verbs_over.length)],
-        task: tasks[genRandom(tasks.length)]
-    }
+        task: tasks[genRandom(tasks.length)],
+    };
 }
 const harveySpecterQuotes = () => {
     const quotes = [
@@ -28,10 +55,10 @@ const harveySpecterQuotes = () => {
         "I don't have dreams, I have goals. And now, it's onto the next one.",
         "Win a no-win situation by rewriting the rules.",
         "I win. That's what I do!",
-        "Gloating is fine. You just don't have to suck at it."
-    ]
+        "Gloating is fine. You just don't have to suck at it.",
+    ];
     return `${quotes[genRandom(quotes.length)]} ~ Harvey Specter`;
-}
+};
 
 const thankYou = () => {
     art = `
@@ -40,10 +67,10 @@ const thankYou = () => {
    ██    ███████ ███████ ██ ██  ██ █████         ████   ██    ██ ██    ██ ██ 
    ██    ██   ██ ██   ██ ██  ██ ██ ██  ██         ██    ██    ██ ██    ██    
    ██    ██   ██ ██   ██ ██   ████ ██   ██        ██     ██████   ██████  ██                                                                              
-        `
+        `;
 
     return art;
-}
+};
 
 function genBreak() {
     for (let i = 0; i < 2; i++) {
@@ -64,3 +91,4 @@ function execute() {
     console.log(thankYou());
 }
 execute();
+
